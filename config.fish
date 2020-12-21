@@ -29,3 +29,5 @@ set SPACEFISH_PROMPT_ORDER time user host dir git package node ruby golang php r
 source ~/.local/share/omf/pkg/colorman/init.fish
 set -g FZF_CTRL_T_COMMAND "command find -L \$dir -type f 2> /dev/null | sed '1d; s#^\./##'"
 set PATH $PATH ~/.local/bin
+export PATH="/root/.gem/ruby/2.7.0/bin:$PATH"
+export PATH="/home/juan/.gem/ruby/2.7.0/bin:$PATH"
